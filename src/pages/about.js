@@ -10,6 +10,7 @@ function About() {
         </div>
             <p>
                 About Page
+                    CONTINOUS DEPLOYMENTTTTTTT 
             </p>
     </React.Fragment>
   );
