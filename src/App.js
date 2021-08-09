@@ -1,13 +1,21 @@
 import React from 'react';
+import { Switch, Route,} from "react-router-dom";
 import Home from './pages/home'
 import About from './pages/about'
 
 function App() {
   return (
-    <React.Fragment>
+    <Switch>
+      <Route path="/about">
+        <About />
+      </Route>
+
+      <Route exact path="/">
+        <Home />
+      </Route>
       <Home />
       <About />
-    </React.Fragment>
+    </Switch>
   );
 }
 
@@ -15,4 +23,12 @@ export default App;
 
 
 //TODO
-//continous deployment over github
+//pages set up
+  //components for pages
+    //navbar
+    //FOOTER
+    //latest 
+//routing
+
+//NCT1000MILES
+  //porcupine lake wilderness

@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+
 
 function Home() {
   return (
@@ -10,6 +12,7 @@ function Home() {
         </div>
             <p>
                 SCOTT HIKES Home Page.
+                Click  <Link to="/about">HERE</Link> for ABOUT PAGE 
             </p>
     </React.Fragment>
   );
